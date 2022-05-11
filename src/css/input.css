@@ -1,0 +1,58 @@
+*, *::before, *::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --sky600: #0284c7;
+  --sky500: #0ea5e9;
+  --sky300: #7dd3fc;
+  --sky200: #bae6fd;
+}
+
+body{
+  font-family:"Poppins",sans-serif;
+  background: linear-gradient(90deg, var(--sky600), var(--sky300));
+}
+
+
+.header{
+  display: flex;
+}
+
+.logo{
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.todolist-container{
+  display: grid;
+  grid-template-columns: 300px auto;
+}
+
+.sidebar{
+  font-size: 2rem;
+  height: 100vh;
+  padding: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+}
+
+.sidebar-block{
+  cursor: pointer;
+  transition: ease-in 100ms;
+}
+
+.sidebar-block:hover{
+  color: white;
+}
+
+.todolist-content{
+  background-color: var(--sky200);
+}

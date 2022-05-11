@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo List - The Odin Project</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="main.bundle.js" defer></script>
+  <link rel="stylesheet" href="../src/css/input.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo">
+      <i class="fa-solid fa-check-double"></i>
+      <p class="logo-text">To-doers</p>
+    </div>
+  </header>
+  <div class="todolist-container">
+    <sidebar class="sidebar">
+      <div class="sidebar-block">
+        <i class="fa-solid fa-house-chimney"></i>
+        <a class="sidebar-item">Home</a>
+      </div>
+      <div class="sidebar-block">
+        <i class="fa-solid fa-calendar-day"></i>
+        <a class="sidebar-item">Today</a>
+      </div>
+      <div class="sidebar-block">
+        <i class="fa-solid fa-calendar-week"></i>
+        <a class="sidebar-item">Week</a>
+      </div>
+      <div class="sidebar-block projects">
+        <i class="fa-solid fa-person-digging"></i>
+        <a class="sidebar-item" data-projects>Projects</a>
+      </div>
+    </sidebar>
+    <div class="todolist-content"></div>
+  </div>
+</body>
+
+</html>
