@@ -25,24 +25,31 @@
   </header>
   <div class="todolist-container">
     <sidebar class="sidebar">
-      <div class="sidebar-block">
-        <i class="fa-solid fa-house-chimney"></i>
-        <a class="sidebar-item">Home</a>
+      <div class="list-section">
+        <div class="sidebar-block">
+          <i class="fa-solid fa-house-chimney"></i>
+          <a class="sidebar-item">Home</a>
+        </div>
+        <div class="sidebar-block">
+          <i class="fa-solid fa-calendar-day"></i>
+          <a class="sidebar-item">Today</a>
+        </div>
+        <div class="sidebar-block">
+          <i class="fa-solid fa-calendar-week"></i>
+          <a class="sidebar-item">Week</a>
+        </div>
+        <div class="sidebar-block projects">
+          <i class="fa-solid fa-person-digging"></i>
+          <a class="sidebar-item" data-projects>Projects</a>
+        </div>
       </div>
-      <div class="sidebar-block">
-        <i class="fa-solid fa-calendar-day"></i>
-        <a class="sidebar-item">Today</a>
-      </div>
-      <div class="sidebar-block">
-        <i class="fa-solid fa-calendar-week"></i>
-        <a class="sidebar-item">Week</a>
-      </div>
-      <div class="sidebar-block projects">
-        <i class="fa-solid fa-person-digging"></i>
-        <a class="sidebar-item" data-projects>Projects</a>
-      </div>
+      <a id="open-add-task" class="add-button">
+        <i class="fa-solid fa-circle-plus"></i>
+      </a>
     </sidebar>
-    <div class="todolist-content"></div>
+
+    <div class="todolist-content">
+    </div>
   </div>
 </body>
 
